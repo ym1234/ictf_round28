@@ -1,0 +1,4 @@
+FFT/DFT can be seen as evaluating polynomial at complex roots of unity, with inputs be coefficients. Here, we know that the input in this case is all in 0~256, so for each output value can be get 2 linear equation (Re/Im) with the flag being the roots, which can be solved with LLL.
+https://imaginaryctf.org/f/g4LFr#solve.py
+
+This challenge can be seen as a slightly harder version of this.
